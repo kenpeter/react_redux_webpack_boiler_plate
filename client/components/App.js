@@ -1,20 +1,17 @@
 import React from 'react';
 
+import CurrentLocation from "./CurrentLocation";
 import ListLocation from "./ListLocation";
-import Clickme from "./Clickme";
 
-class App extends React.Component {
+
+export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>App.js</h1>
-        <hr/>
-        <Clickme />
-        <hr/>
+        <h1>My react map</h1>
+        <CurrentLocation />
         <ListLocation />
       </div>
     );
   }
 }
-
-export default App;
